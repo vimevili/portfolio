@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Vinicius Meirelles | Portfolio",
+    "description": "Portfólio de um Desenvolvedor Full Stack especializado em React."
+  },
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos"
+  },
+  "home": {
+    "name": "Vinicius Meirelles",
+    "role": "Desenvolvedor Full Stack",
+    "description": "Desenvolvedor de Software com 3 anos de prática em interfaces de alta performance, focado em eliminar trabalho manual e maximizar valor através da tecnologia."
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "paragraph1": "Com 3 anos de experiência, me especializei em criar interfaces de alta performance e visualização de dados utilizando o ecossistema React e TypeScript.",
+    "paragraph2": "Na Embraer, atuei no desenvolvimento de mais de 10 projetos críticos. Um dos maiores destaques foi minha atuação em uma solução de automação premiada (Top 13 de 121 projetos) que, através da reengenharia de processos, reduziu o esforço operacional em 85%, gerando economia direta e escalabilidade para a unidade de negócio.",
+    "paragraph3": "Hoje, busco criar soluções que impactem positivamente a vida das pessoas, unindo performance técnica com design intuitivo."
+  },
+  "experience": {
+    "title": "Experiência",
+    "items": [
+      {
+        "id": 1,
+        "role": "Desenvolvedor de Software",
+        "company": "Embraer",
+        "period": "2024 - 2025"
+      },
+      {
+        "id": 2,
+        "role": "Estagiário em Desenvolvimento Front-End",
+        "company": "Compass UOL",
+        "period": "abr/2023 - set/2023"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projetos",
+    "items": [
+      {
+        "id": 1,
+        "title": "Audio App",
+        "description": "e-Commerce completo de headphones com funções de pesquisa de produtos e carrinho de compras",
+        "tags": ["React", "TypeScript"]
+      }
+    ]
+  },
+  "common": {
+    "accessibility": {
+      "next_section": "Próxima seção",
+      "prev_section": "Seção anterior",
+      "github": "Perfil do Github",
+      "linkedin": "Perfil do Linkedin",
+      "email": "Entrar em contato por email",
+      "photo_description": "Vinicius sorri para a foto. É um homem branco, com cabelo curto na cor castanho escuro. Possui uma barba e bigodes um pouco ralos, usa oculos com lentes quadradas."
+    }
+  }
+}

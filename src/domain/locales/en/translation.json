@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Vinicius Meirelles | Portfolio",
+    "description": "Portfolio of a Full Stack Developer specializing in React."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects"
+  },
+  "home": {
+    "name": "Vinicius Meirelles",
+    "role": "Full Stack Developer",
+    "description": "Software Developer with 3 years of hands-on experience in high-performance interfaces, focused on eliminating manual work and maximizing value through technology."
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "With 3 years of experience, I specialize in building high-performance interfaces and data visualizations utilizing the React and TypeScript ecosystem.",
+    "paragraph2": "At Embraer, the biggest aerospace company in Brazil, I contributed to the development of over 10 critical projects. A key highlight was my role in an award-winning automation solution (Top 13 out of 121 projects) which, through process re-engineering, reduced operational effort by 85%, generating direct savings and scalability for the business unit.",
+    "paragraph3": "Today, I seek to create solutions that positively impact people's lives, merging technical performance with intuitive design."
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "id": 1,
+        "role": "Software Developer",
+        "company": "Embraer",
+        "period": "Jan 2024 - Dec 2025"
+      },
+      {
+        "id": 2,
+        "role": "Front-End Development Intern",
+        "company": "Compass UOL",
+        "period": "Apr 2023 - Sep 2023"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "id": 1,
+        "title": "Audio App",
+        "description": "Full-featured headphone e-commerce with product search and shopping cart functionality.",
+        "tags": ["React", "TypeScript"]
+      }
+    ]
+  },
+  "common": {
+    "accessibility": {
+      "next_section": "Next section",
+      "prev_section": "Previous section",
+      "github": "GitHub profile",
+      "linkedin": "LinkedIn profile",
+      "email": "Contact via email",
+      "photo_description": "Vinicius is smiling in the photo. He is a white man with short dark brown hair. He has a beard and mustache, and wears square glasses."
+    }
+  }
+}

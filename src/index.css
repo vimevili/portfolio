@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
@@ -20,4 +21,88 @@ button {
 
 * {
   @apply transition-colors duration-300 ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-50vh) translateX(40px);
+  }
+  50% {
+    transform: translateY(-100vh) translateX(-40px);
+  }
+  75% {
+    transform: translateY(-150vh) translateX(20px);
+  }
+  100% {
+    transform: translateY(-200vh) translateX(-20px);
+  }
+}
+
+@keyframes blob-1 {
+  0%,
+  100% {
+    transform: scale(1, 1);
+    border-radius: 25% 75% 45% 55% / 40% 50% 50% 60%;
+  }
+  50% {
+    transform: scale(0.9, 1.15);
+    border-radius: 70% 30% 25% 75% / 60% 35% 65% 40%;
+  }
+}
+
+@keyframes blob-2 {
+  0%,
+  100% {
+    transform: scale(1, 1);
+    border-radius: 66% 34% 33% 67% / 65% 33% 67% 35%;
+  }
+  33% {
+    border-radius: 35% 65% 70% 30% / 30% 60% 40% 70%;
+  }
+  66% {
+    transform: scale(1.1, 0.9);
+    border-radius: 75% 25% 20% 80% / 60% 30% 70% 40%;
+  }
+}
+
+@keyframes blob-3 {
+  0%,
+  100% {
+    transform: scale(1, 1);
+    border-radius: 41% 59% 45% 55% / 44% 53% 47% 56%;
+  }
+  50% {
+    transform: scale(0.95, 1.05);
+    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+  }
+}
+
+.animate-float {
+  animation: float linear infinite;
+}
+.animate-blob-1 {
+  animation: blob-1 8s ease-in-out infinite;
+}
+.animate-blob-2 {
+  animation: blob-2 8s ease-in-out infinite;
+}
+.animate-blob-3 {
+  animation: blob-3 8s ease-in-out infinite;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.2);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.4);
 }

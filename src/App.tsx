@@ -27,20 +27,11 @@ function App() {
     setIsDarkMode((prev) => !prev);
   };
 
-  // O Segredo: Sincronizar o estado com a tag <html class="dark">
+  // Sincroniza estado inicial com HTML na primeira renderização
   useEffect(() => {
     const root = window.document.documentElement;
-
-    // Remove a classe antiga para evitar conflitos
-    root.classList.remove('light', 'dark');
-
-    if (isDarkMode) {
-      root.classList.add('dark');
-      localStorage.setItem('theme', 'dark'); // Salva preferência
-    } else {
-      root.classList.add('light');
-      localStorage.setItem('theme', 'light'); // Salva preferência
-    }
+    root.classList.toggle('dark', isDarkMode);
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
   }, [isDarkMode]);
 
   const {

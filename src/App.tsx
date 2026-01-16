@@ -75,8 +75,8 @@ function App() {
           onClick={() => goToSection(section.index)}
           className={`h-2 rounded-full transition-all duration-300 ${
             section.index === currentSection.index
-              ? 'w-8 bg-[#D2ADDC] hover:bg-[#D2ADDC] dark:bg-amber-400'
-              : 'w-2 bg-[#ad9db2] hover:bg-[#D2ADDC] dark:bg-[#c9ba95] dark:hover:bg-amber-400'
+              ? 'w-8 bg-[#D2ADDC]  dark:bg-amber-400'
+              : 'w-2 bg-[#ad9db2] hover:bg-[#c9ba95] dark:bg-[#c9ba95] dark:hover:bg-amber-400'
           } `}
         />
       ))}

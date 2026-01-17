@@ -2,11 +2,45 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@layer components {
+  .section-container {
+    @apply h-full space-y-2 md:space-y-4 min-h-83 lg:min-h-110 flex flex-col gap-2 my-8;
+  }
+  .title-container {
+    @apply flex items-center  mb-0;
+  }
+  .card-container {
+    @apply flex flex-col bg-white/20 p-3 md:p-4 rounded-2xl border border-white/40 hover:bg-white/50 transition-colors dark:bg-white/20;
+  }
+  .hover-icon {
+    @apply p-1.5 md:p-3 rounded-full backdrop-blur-md border border-white/40 shadow-xs md:shadow-sm transition-all duration-300 bg-white/40
+       text-[#D2ADDC] hover:bg-white/70 hover:scale-110 active:scale-95 hover:shadow-purple-200/50 dark:bg-white/30 dark:text-amber-400;
+  }
+  .title-icon {
+    @apply p-1 md:p-3 text-[#D2ADDC] dark:text-amber-400;
+  }
+}
+
+@layer text {
+  .titles {
+    @apply text-xl md:text-2xl font-bold text-[#D2ADDC] dark:text-amber-400;
+  }
+  .subtitles {
+    @apply text-[11px] md:text-xl font-bold text-slate-800  dark:text-slate-200;
+  }
+  .base-text {
+    @apply text-slate-700 dark:text-slate-200 leading-relaxed text-[11px] md:text-base;
+  }
+  .details {
+    @apply text-[9px] md:text-xs text-slate-600 dark:text-slate-200 font-medium;
+  }
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  height: 100vh;
+  height: 100dvh;
   width: 100%;
 
   font-synthesis: none;

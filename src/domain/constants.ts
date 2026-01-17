@@ -55,7 +55,7 @@ export const experiences: Experience[] = [
     company: 'experience.items.1.company',
     companyLogo: compassLogo,
     period: 'experience.items.1.period',
-    tags: ['React', 'TypeScript', 'Firebase'],
+    tags: ['React', 'TypeScript', 'Firebase', 'Vitest', 'Tailwind'],
   },
 ];
 

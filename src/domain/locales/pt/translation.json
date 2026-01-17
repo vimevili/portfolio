@@ -17,7 +17,7 @@
   "about": {
     "title": "Sobre Mim",
     "paragraph1": "Com 3 anos de experiência, me especializei em criar interfaces de alta performance e visualização de dados utilizando o ecossistema React e TypeScript.",
-    "paragraph2": "Na Embraer, atuei no desenvolvimento de mais de 10 projetos críticos. Um dos maiores destaques foi minha atuação em uma solução de automação premiada (Top 13 de 121 projetos) que, através da reengenharia de processos, reduziu o esforço operacional em 85%, gerando economia direta e escalabilidade para a unidade de negócio.",
+    "paragraph2": "Na Embraer, desenvolvi mais de 10 projetos críticos, incluindo uma solução de automação premiada que, através da reengenharia de processos, reduziu o esforço operacional em 85%, gerando economia direta e escalabilidade para a unidade de negócio.",
     "paragraph3": "Hoje, busco criar soluções que impactem positivamente a vida das pessoas, unindo performance técnica com design intuitivo."
   },
   "experience": {
@@ -27,13 +27,13 @@
         "id": 1,
         "role": "Desenvolvedor de Software",
         "company": "Embraer",
-        "period": "2024 - 2025"
+        "period": "Jan/2024 - Dez/2025"
       },
       {
         "id": 2,
         "role": "Estagiário em Desenvolvimento Front-End",
         "company": "Compass UOL",
-        "period": "abr/2023 - set/2023"
+        "period": "Abr/2023 - Set/2023"
       }
     ]
   },

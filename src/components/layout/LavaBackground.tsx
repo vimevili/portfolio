@@ -35,7 +35,7 @@ const LavaBackground = () => {
   });
 
   return (
-    <div className="fixed inset-0 w-full h-full overflow-hidden bg-slate-50 dark:bg-slate-950 -z-10">
+    <div className="fixed inset-0 w-full h-dvh overflow-hidden bg-slate-50 dark:bg-slate-950 -z-10">
       <div className="absolute inset-0 bg-linear-to-tr from-orange-50 to-yellow-50 dark:from-slate-900 dark:to-slate-800 opacity-100" />
       {bubbles.map((bubble) => (
         <Bubble key={bubble.id} {...bubble} />

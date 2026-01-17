@@ -15,7 +15,7 @@ const SocialButton = ({ socialMedia, href, icon: Icon }: SocialButtonProps) => {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={t(`common.accessibility.${socialMedia.toLowerCase()}`)}
-      className={` p-3 bg-white/50 hover:bg-white/70 rounded-xl transition-all shadow-sm hover:shadow-md hover:-translate-y-1 border border-white/30 dark:bg-white/20 text-[#D2ADDC] dark:text-amber-400 `}
+      className={`p-2 md:p-3 bg-white/50 hover:bg-white/70 rounded-xl transition-all shadow-sm hover:shadow-md hover:-translate-y-1 border border-white/30 dark:bg-white/20 text-[#D2ADDC] dark:text-amber-400 `}
     >
       <Icon size={20} />
     </a>

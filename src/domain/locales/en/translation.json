@@ -17,7 +17,7 @@
   "about": {
     "title": "About Me",
     "paragraph1": "With 3 years of experience, I specialize in building high-performance interfaces and data visualizations utilizing the React and TypeScript ecosystem.",
-    "paragraph2": "At Embraer, the biggest aerospace company in Brazil, I contributed to the development of over 10 critical projects. A key highlight was my role in an award-winning automation solution (Top 13 out of 121 projects) which, through process re-engineering, reduced operational effort by 85%, generating direct savings and scalability for the business unit.",
+    "paragraph2": "At Embraer, the biggest aerospace company in Brazil, I developed over 10 critical projects, including an award-winning automation solution which, through process re-engineering, reduced operational effort by 85%, generating direct savings and scalability for the business unit.",
     "paragraph3": "Today, I seek to create solutions that positively impact people's lives, merging technical performance with intuitive design."
   },
   "experience": {
@@ -27,13 +27,13 @@
         "id": 1,
         "role": "Software Developer",
         "company": "Embraer",
-        "period": "Jan 2024 - Dec 2025"
+        "period": "Jan/2024 - Dec/2025"
       },
       {
         "id": 2,
         "role": "Front-End Development Intern",
         "company": "Compass UOL",
-        "period": "Apr 2023 - Sep 2023"
+        "period": "Apr/2023 - Sep/2023"
       }
     ]
   },
